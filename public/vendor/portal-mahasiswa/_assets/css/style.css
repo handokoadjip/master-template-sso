@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #E6E6E6;
+}
+
+/* --------------------------------- */
+/* CUSTOM */
+/* --------------------------------- */
+.bg-primary-gradient-vertical {
+  background: linear-gradient(0deg, #8D0BF2 -19.21%, #EE9005 103.87%);
+}
+
+.bg-primary-gradient-horizontal {
+  background: linear-gradient(90deg, #E98912 10.32%, #A62DB6 68.29%);
+}
+
+.bg-pattern-1 {
+  background-image: url(../images/pattern-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-pattern-2 {
+  background-image: url(../images/pattern-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rounded-10px {
+  border-radius: 10px;
+}
+
+.rounded-20px {
+  border-radius: 20px;
+}
+
+.rounded-top-80px {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+.border-5px-secondary {
+  border: 5px solid #DE7A2D;
+}
+
+.border-l-10px-primary {
+  border-left: 10px solid #B13D9B;
+}
+
+.border-l-10px-muted {
+  border-left: 10px solid #8D8D8D;
+}
+
+.border-b-1px-muted {
+  border-bottom: 1px solid #8D8D8D !important;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+/* --------------------------------- */
+/* BOOOTSTRAP 5 */
+/* --------------------------------- */
+
+.form-control {
+  background: #F4F4F4;
+}
+
+.form-select {
+    background-color: #F4F4F4;
+}
+
+.text-primary {
+  color: #B13D9B !important;
+}
+
+.text-secondary {
+  color: #DE7A2D !important;
+}
+
+.text-danger {
+  color: #C75B64 !important;
+}
+
+.bg-secondary {
+  background-color: #DE7A2D !important;
+}
+
+.bg-muted {
+  background-color: #ECECEC !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #B13D9B;
+  border-color: #B13D9B;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #a4318f;
+  border-color: #a4318f;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #DE7A2D;
+  border-color: #DE7A2D;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #b8580f;
+  border-color: #b8580f;
+}
+
